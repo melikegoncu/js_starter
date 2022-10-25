@@ -10,7 +10,7 @@ export default class Lecture{
 
     get getLectureInfo(){
         let info =
-        `Course Name: ${song} \n 
+        `Course Name: ${this.title} \n 
         Description: ${this.description} \n 
         Lecturer: ${this.lecturer} \n 
         Category: ${this.category}`;
